@@ -1,4 +1,4 @@
-**Local Setup for irder-service**
+**Local Setup for order-service**
 
 **Pre-Requisites:**
 1. IDE(Eclipse, IntelliJ)
