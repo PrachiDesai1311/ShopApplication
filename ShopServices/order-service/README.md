@@ -10,7 +10,7 @@
 1. Clone the order-service into the IDE
 2. Run the command mvn clean verify
 3. Open IDE terminal and run the command docker-compose up -d to install the MySQL Database
-4. Once MongoDB started, start the application and test the endpoint through the postman (check API Endpoint section for endpoint URL)
+4. Start the application and test the endpoint through the postman (check API Endpoint section for endpoint URL)
 
 **API Endpoint Testing through Postman and Swagger**
 
