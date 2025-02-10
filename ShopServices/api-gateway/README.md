@@ -43,7 +43,12 @@
              URL(Paste the token_endpoint url noted down in Step 5) -> Add Client Id as "spring-client-credentials-id" and 
              Client Secret(Paste Client Secret noted in Step 4) -> Click "Get new access token" -> Once Token generated, Click on "Use Token". Now, use below endpoint and Json Payload to test it.
               Endpoint URL : http://localhost:9000/api/product 
-              JSON Payload: { "name": "Apple Iphone", "description" : "5 Mega Pixel Camera", "price": 10000 }
+              
+              JSON Payload: { 
+                "name": "Apple Iphone", 
+                "description" : "5 Mega Pixel Camera", 
+                "price": 10000 
+              }
               
           b. To view all available product, select "Get" method. Go to the authorization tab, scroll down and click on 
              "Get new access token" and Hit the endpoint "http://localhost:9000/api/product"
@@ -51,7 +56,12 @@
           c. To place an order, select "POST" method in the postman. Go to the authorization tab, scroll down and click on 
              "Get new access token". Use below endpoint and JSON payload, 
                 Endpoint URL : http://localhost:9000/api/order 
-                JSON Payload: { "stuCode": "samsung", "price" : 29000, "quantity": 1 }
+                
+                JSON Payload: { 
+                  "stuCode": "samsung", 
+                  "price" : 29000, 
+                  "quantity": 1 
+                }
 
                 
 **<i>B) Swagger-ui:</i>** Once application started successfully, hit the "http://localhost:9000/swagger-ui/index.html, select service from dropdown at the top right side of the page and test the endpoint.
