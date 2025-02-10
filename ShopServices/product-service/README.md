@@ -13,7 +13,8 @@
 4. Once MongoDB started, start the application and test the two endpoints through the postman (check API Endpoint section for endpoint URL)
 
 **API Endpoint Testing through Postman and Swagger**
-A) Postman:
+
+**A) Postman:**
    1. To create product, select "POST" method in the postman and use below endpoint and JSON payload, 
       Endpoint URL : http://localhost:8080/api/product
       JSON Payload:
@@ -25,5 +26,5 @@ A) Postman:
    2. To view list of available product, select "GET" method in the postman and hit the below endpoint,
       Endpoint URL : http://localhost:8080/api/product
 
-B) Swagger-ui:
+**B) Swagger-ui:**
    Once application started successfully, hit the "http://localhost:8080/swagger-ui/index.html and test the endpoint.
