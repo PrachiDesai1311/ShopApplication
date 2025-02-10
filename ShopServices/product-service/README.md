@@ -14,17 +14,19 @@
 
 **API Endpoint Testing through Postman and Swagger**
 
-**A) Postman:**
+**<i>A) Postman:</i>**
    1. To create product, select "POST" method in the postman and use below endpoint and JSON payload, 
       Endpoint URL : http://localhost:8080/api/product
+
       JSON Payload:
-      {
+      <pre>{
         "name": "Apple Iphone",
          "description" : "5 Mega Pixel Camera",
          "price": 10000
-      }
-   2. To view list of available product, select "GET" method in the postman and hit the below endpoint,
+      }</pre>
+      
+   3. To view list of available product, select "GET" method in the postman and hit the below endpoint,
       Endpoint URL : http://localhost:8080/api/product
 
-**B) Swagger-ui:**
+**<i>B) Swagger-ui:</i>**
    Once application started successfully, hit the "http://localhost:8080/swagger-ui/index.html and test the endpoint.
