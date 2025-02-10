@@ -16,9 +16,9 @@
 
 **API Endpoint Testing through Postman and Swagger**
 
-**A) Postman: **
+**<i>A) Postman:<i>**
 Open Postman and hit the "http://localhost:8082/api/inventory?stuCode=samsung&quantity=1" endpoint.
 
-**B) Swagger-ui:**
+**<i>B) Swagger-ui:</i>**
 Once application started successfully, hit the "http://localhost:8082/swagger-ui/index.html and test the endpoint.
 
