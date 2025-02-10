@@ -14,13 +14,13 @@
 
 **API Endpoint Testing through Postman and Swagger**
 
-**A) Postman:**
-1. To place an order, select "POST" method in the postman and use below endpoint and JSON payload,
+**<i>A) Postman:</i>** To place an order, select "POST" method in the postman and use below endpoint and JSON payload,
    Endpoint URL : http://localhost:8081/api/order
-   JSON Payload: {
+   
+   JSON Payload: <pre>{
     "stuCode": "samsung",
     "price" : 29000,
     "quantity": 1
-}
+}</pre>
 
-**B) Swagger-ui:** Once application started successfully, hit the "http://localhost:8081/swagger-ui/index.html and test the endpoint.
+**<i>B) Swagger-ui:</i>** Once application started successfully, hit the "http://localhost:8081/swagger-ui/index.html and test the endpoint.
